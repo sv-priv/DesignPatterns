@@ -1,0 +1,6 @@
+When you need many other objects dependent on a certain object to receive an update when that object changes.
+
+StockMarket with thousands of stocks needs to send updated to objects representing individual stocks.
+The subject(observable) sends many stocks to the Observers.
+The observers take the ones they want and use them.
+
